@@ -1,0 +1,29 @@
+table{
+    border: 2px solid black;
+    width: 500px;
+    height:500px;
+    position:relative;
+    top: 30px;
+    left: 120px;
+    margin-top: 300px;
+    min-width: 200px;
+    max-height: 1000px;
+    transform: translate(80%,-40%);
+    border-collapse: collapse;
+}
+th{
+    border: 3px solid black;
+    
+}
+body{
+    background-color: brown;
+}
+tr{
+    background-color: white;
+}
+tr:nth-child(odd) th:nth-child(even),
+tr:nth-child(even) th:nth-child(odd)
+
+{
+background-color: black;
+}
