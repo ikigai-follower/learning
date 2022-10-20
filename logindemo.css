@@ -1,0 +1,39 @@
+body {
+    background-color: aquamarine;
+}
+
+#headbig {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 60px;
+    padding-top: 30px;
+
+}
+
+.gridbox {
+    position: fixed;
+    border: 2px solid black;
+
+    left: 500px;
+    box-shadow: 0px 0px 10px gray;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+
+    background-color: khaki;
+
+}
+
+.heading {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 1px solid black;
+
+
+}
+
+.gridbox label {
+    color: brown;
+
+}
+
